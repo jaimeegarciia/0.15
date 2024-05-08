@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.empresa.javafx_jdbc_sp.ClientesViewController">
+    <TableView fx:id="tableView" prefHeight="400" prefWidth="600">
+        <columns>
+            <TableColumn text="ID" prefWidth="100"/>
+            <TableColumn text="Nombre" prefWidth="200"/>
+            <TableColumn text="Ciudad" prefWidth="200"/>
+            <TableColumn text="Facturación" prefWidth="200"/>
+        </columns>
+    </TableView>
+</VBox>
+
